@@ -19,6 +19,7 @@
 | [Jewels/](Jewels/chase_jewels.md) | The Adorned, Heroic Tragedy, Prism of Belief, Controlled Metamorphosis, Megalomaniac, Grand Spectrum, Split Personality |
 | [Flasks/](Flasks/chase_flasks.md) | Olroth's Resolve |
 | [Charms/](Charms/chase_charms.md) | Rite of Passage |
+| [Support Gems/](Support%20Gems/chase_lineage_supports.md) | Rigwald's Ferocity, Seraph's Heart, Breachlord's Rift, Rakiata's Flow, Zarokh's Refrain, Dominus' Grasp, Uhtred's Exodus/Omen/Augury, and 16 more Lineage supports |
 
 ## Quick Rarity Tier Overview
 
