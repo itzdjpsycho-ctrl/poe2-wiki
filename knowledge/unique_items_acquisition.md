@@ -272,6 +272,35 @@ Charms slot into your belt and trigger automatically on specific conditions.
 
 ---
 
+# Chase Unique Spotlight: Mageblood
+
+**Base:** Utility Belt | **Level Req:** 55 | **Rarity:** Extremely Rare
+
+**Stats:**
+- 20% of Flask Recovery Applied Instantly (implicit)
+- 4 random Mage's Legacy augments from a pool of 14
+- Duplicates allowed; each duplicate increases effect by 25–50%
+
+## All Ways to Obtain
+
+| Method | Reliability | Notes |
+|---|---|---|
+| **Ritual Tribute** | Best | Spend Tribute in the Ritual favours window; Defer if you can't afford it |
+| **Orb of Chance** | Very Low | Use on a Normal (white) Utility Belt; thousands of attempts on average |
+| **World / Boss Drop** | Very Low | Can drop from any endgame boss or rare monster; don't farm specifically for this |
+| **Atziri's Temple (Incursion)** | Low | Can appear as a reward via the Temple Console room layout |
+| **Wandering Trader (Expedition)** | Extremely Rare | Randomized stock; appears very rarely |
+| **Player Trade** | Guaranteed | Fastest method; check poe.ninja for current price first |
+
+## Best Farming Strategy (Ritual — Patch 0.5)
+1. Run **Tier 16 maps** with a **Freedom of Faith Ritual Precursor Tablet** (doubles altar count)
+2. Kill the **map boss first** to bank maximum Tribute before activating altars
+3. Use **Head of the King** to chain up to 6 maps with stacking bonuses
+4. Stack tablet mods for extra reroll favours and reduced Tribute cost
+5. **Defer** Mageblood if it appears but you can't afford it — it returns cheaper next time
+
+---
+
 # Live Reference
 - [Maxroll Boss Loot Table Cheat Sheet](https://maxroll.gg/poe2/resources/boss-loot-table-cheat-sheet) — authoritative loot tables
 - [Best Uniques to Chance](https://maxroll.gg/poe2/meta/best-unique-items-to-chance) — Mageblood, Headhunter, etc.
