@@ -7,6 +7,7 @@
       "levelReq": 65,
       "rarityTier": "SSS",
       "approxPrice": "~150 Divine Orbs",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/Rigwald.webp",
       "dropSources": ["Avelyne, the Withered Rose", "Varloch, the Ashen Lord"],
       "keyStats": [
         "Weapon Set I: 30% increased Attack Speed, 15% less Damage",
@@ -22,6 +23,7 @@
       "levelReq": 65,
       "rarityTier": "SSS",
       "approxPrice": "~130 Divine Orbs",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/SeraphsHeart.webp",
       "dropSources": ["Source unconfirmed (high trade volume)"],
       "keyStats": [
         "Supports Persistent Buff Skills (Heralds, Auras, Defensive Buffs)",
@@ -38,6 +40,7 @@
       "levelReq": 65,
       "rarityTier": "SS",
       "approxPrice": "~20 Divine Orbs",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/BreachlordsRemorse.webp",
       "dropSources": ["General drop (level 52+)"],
       "keyStats": [
         "Supported Skills Break 50% of Armour when Freezing or Electrocuting targets",
@@ -54,6 +57,7 @@
       "levelReq": 65,
       "rarityTier": "S",
       "approxPrice": "~10.7 Divine Orbs",
+      "image": "https://cdn.poe2db.tw/image/art/2dart/skillicons/support/4k/randomisedtriggersupport.webp",
       "dropSources": ["The Trialmaster (Trial of Chaos)"],
       "keyStats": [
         "Triggered skills deal between 40% less and 60% more Damage (random per trigger)",
@@ -71,6 +75,7 @@
       "levelReq": 65,
       "rarityTier": "S",
       "approxPrice": "~3.73 Divine Orbs",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/UhtredsConstellation.webp",
       "dropSources": ["Uhtred, the Stardrinker"],
       "keyStats": [
         "Supported Skills have 50% less Cooldown Recovery Rate",
@@ -88,6 +93,7 @@
       "levelReq": 65,
       "rarityTier": "S",
       "approxPrice": "~77 Exalted Orbs",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/Wildshards.webp",
       "dropSources": ["Source unconfirmed (high trade volume)"],
       "keyStats": [
         "Gain 1 Wildshard on casting Supported Spells",
@@ -105,6 +111,7 @@
       "levelReq": 65,
       "rarityTier": "A",
       "approxPrice": "High value (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageUhtredLesser.webp",
       "dropSources": ["Olroth, Origin of the Fall"],
       "keyStats": [
         "+3 to Level of Supported Skills if no other Supports are modifying them",
@@ -121,6 +128,7 @@
       "levelReq": 65,
       "rarityTier": "A",
       "approxPrice": "High value (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageUhtredStandard.webp",
       "dropSources": ["Olroth, Origin of the Fall"],
       "keyStats": [
         "+2 to Level of Supported Skills if exactly one other Support is modifying them",
@@ -136,6 +144,7 @@
       "levelReq": 65,
       "rarityTier": "A",
       "approxPrice": "High value (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageUhtredGreater.webp",
       "dropSources": ["Olroth, Origin of the Fall"],
       "keyStats": [
         "+2 to Level of Supported Skills if exactly two other Supports are modifying them",
@@ -151,6 +160,7 @@
       "levelReq": 65,
       "rarityTier": "A",
       "approxPrice": "High value (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/Rakiata.webp",
       "dropSources": ["Manoki, the Chosen"],
       "keyStats": [
         "Hits with Supported Skills treat Enemy Monster Elemental Resistance values as inverted",
@@ -167,6 +177,7 @@
       "levelReq": 65,
       "rarityTier": "A",
       "approxPrice": "High value (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/Zarokh.webp",
       "dropSources": ["Zahmir, the Blade Sovereign", "Zarokh, the Temporal"],
       "keyStats": [
         "Supported Spells Echo 3 times",
@@ -184,6 +195,7 @@
       "levelReq": 65,
       "rarityTier": "A",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageMercy.webp",
       "dropSources": ["General drop (level 52+)"],
       "keyStats": [
         "Supported Skills Chain 100% more times",
@@ -200,6 +212,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/Dialla.webp",
       "dropSources": ["General drop (level 52+)"],
       "keyStats": [
         "+1 to Level of Supported Skill Gems",
@@ -217,6 +230,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/ScaleofEonyr.webp",
       "dropSources": ["General drop (source unconfirmed)"],
       "keyStats": [
         "Lightning damage from Supported Skills can inflict Electrocute",
@@ -233,6 +247,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Accessible (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/EshsProwess.webp",
       "dropSources": ["It That Was Esh", "It That Was Tul"],
       "keyStats": [
         "+1 to Level of Supported Lightning Skills",
@@ -249,6 +264,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageArakaali.webp",
       "dropSources": ["General drop (level 52+)"],
       "keyStats": [
         "8% more Damage with Hits for each Poison on the Enemy, up to 40%",
@@ -264,6 +280,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageTecrod.webp",
       "dropSources": ["Vessel of Kulemak"],
       "keyStats": [
         "Minions from Supported Skills die 20 seconds after their Life is reduced to 0",
@@ -280,6 +297,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/TrickstersShard.webp",
       "dropSources": ["The Raven Trickster"],
       "keyStats": [
         "Casting the supported spell triggers Fragment Self — creates up to 4 Fractured Mimics",
@@ -297,6 +315,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageAtziri.webp",
       "dropSources": ["Maztli, Flesh-Shaper", "Ytzara, Blood Oracle"],
       "keyStats": [
         "Curses inflicted by Supported Skills ignore the usual Curse Limit",
@@ -314,6 +333,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Accessible (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/Garukhan.webp",
       "dropSources": ["Zahmir, the Blade Sovereign"],
       "keyStats": [
         "Maximum Critical Hit chance with Supported Skills is 50%",
@@ -330,6 +350,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageDjinn.webp",
       "dropSources": ["Zahmir, the Blade Sovereign", "Zarokh, the Temporal"],
       "keyStats": [
         "Supported Skills deal 10% more Damage for each different Command Skill you have used in the last 15 seconds",
@@ -346,6 +367,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageXoph.webp",
       "dropSources": ["Xesht, We That Are One (Breach)"],
       "keyStats": [
         "Supported Skills gain 40% of Fire damage as extra Chaos damage",
@@ -362,6 +384,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "~15.5 Exalted Orbs",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/LineageEinhar.webp",
       "dropSources": ["Avelyne, the Withered Rose", "Varloch, the Ashen Lord"],
       "keyStats": [
         "Killing Blows from Supported Strike Skills against Rare monsters grant two of their Modifiers for 300 seconds",
@@ -378,6 +401,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Moderate (check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/MothersDeclaration.webp",
       "dropSources": ["The Arbiter of Divinity"],
       "keyStats": [
         "Enemies entering your Presence while a Supported Skill is active are Intimidated for 4 seconds",
@@ -394,6 +418,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "Unknown (new in 0.5 — check poe.ninja)",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/OlrothsHubris.webp",
       "dropSources": ["Source unconfirmed (0.5.0 addition)"],
       "keyStats": [
         "Supported Skills cost an additional 20% of maximum Runic Ward",
@@ -411,6 +436,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "~20 Exalted Orbs",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/UthredsChalice.webp",
       "dropSources": ["Uhtred, the Stardrinker"],
       "keyStats": [
         "Grants Overflowing Chalice when used (1 second duration per 1 second of cooldown)",
@@ -428,6 +454,7 @@
       "levelReq": 65,
       "rarityTier": "B",
       "approxPrice": "~2.5 Divine Orbs",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Gems/New/NewSupport/Lineage/BreachlordsAmalgam.webp",
       "dropSources": ["General drop (level 52+, 0.5.0 addition)"],
       "keyStats": [
         "Projectiles from Supported Skills Return to you",

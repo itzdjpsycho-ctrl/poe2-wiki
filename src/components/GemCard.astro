@@ -8,6 +8,7 @@ interface Gem {
   levelReq: number;
   rarityTier: string;
   approxPrice: string;
+  image?: string;
   dropSources: string[];
   keyStats: string[];
   whyPowerful: string;
@@ -28,13 +29,24 @@ const { gem } = Astro.props;
   data-name={gem.name.toLowerCase()}
   data-tags={gem.tags.join(' ')}
 >
-  <header class="flex items-start justify-between gap-3 mb-2">
-    <div class="min-w-0">
-      <h3 class="font-display text-poe-gold text-sm leading-tight">{gem.name}</h3>
+  <header class="flex items-start gap-3 mb-2">
+    {gem.image && (
+      <div class="flex-shrink-0 w-12 h-12 bg-black/60 border border-poe-border/60 rounded flex items-center justify-center overflow-hidden">
+        <img
+          src={gem.image}
+          alt={gem.name}
+          class="w-full h-full object-contain p-1"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    )}
+    <div class="flex-1 min-w-0">
+      <div class="flex items-start justify-between gap-2">
+        <h3 class="font-display text-poe-gold text-sm leading-tight">{gem.name}</h3>
+        <RarityBadge tier={gem.rarityTier as 'SSS' | 'SS' | 'S' | 'A' | 'B'} />
+      </div>
       <p class="text-xs text-poe-muted mt-0.5">{gem.category} · Lvl {gem.levelReq}</p>
-    </div>
-    <div class="flex items-center gap-2 shrink-0">
-      <RarityBadge tier={gem.rarityTier as 'SSS' | 'SS' | 'S' | 'A' | 'B'} />
     </div>
   </header>
 

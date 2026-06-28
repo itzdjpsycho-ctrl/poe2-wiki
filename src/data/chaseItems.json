@@ -8,6 +8,7 @@
       "levelReq": 55,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Amulets/Uniques/ChoirOfTheStorm.webp",
       "tags": ["lightning", "crit", "breach", "boss-drop"],
       "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
       "keyStats": [
@@ -27,6 +28,7 @@
       "levelReq": 52,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Amulets/Uniques/ThePandemonius.webp",
       "tags": ["cold", "penetration", "blind", "breach", "boss-drop"],
       "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
       "keyStats": [
@@ -45,6 +47,7 @@
       "levelReq": 52,
       "canBeChanced": false,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Amulets/Uniques/DeliriumAmulet.webp",
       "tags": ["instilled-mods", "simulacrum", "boss-drop"],
       "dropSources": ["Simulacrum (Delirium — Wave 15)"],
       "keyStats": [
@@ -61,6 +64,7 @@
       "levelReq": 55,
       "canBeChanced": true,
       "rarityTier": "SSS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Belts/Uniques/Mageblood.webp",
       "tags": ["flask", "charm", "ritual", "chanceable", "endgame", "mapping"],
       "dropSources": [
         "Ritual Tribute (best method — Freedom of Faith tablet)",
@@ -83,6 +87,7 @@
       "levelReq": 50,
       "canBeChanced": true,
       "rarityTier": "SSS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Belts/Uniques/Headhunter.webp",
       "tags": ["clear-speed", "mapping", "chanceable", "endgame"],
       "dropSources": [
         "Orb of Chance on Normal Heavy Belt",
@@ -107,6 +112,7 @@
       "levelReq": 55,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Belts/Uniques/Widowmaker.webp",
       "tags": ["ring-amplification", "ritual", "boss-drop"],
       "dropSources": ["King in the Mists (Ritual — Crux of Nothingness)"],
       "keyStats": [
@@ -127,6 +133,7 @@
       "levelReq": 64,
       "canBeChanced": false,
       "rarityTier": "SSS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/BodyArmours/Uniques/PilgrimsImage.webp",
       "tags": ["cooldown-reduction", "energy-shield", "sustain", "trial", "boss-drop"],
       "dropSources": ["Zarokh, the Temporal (Trial of Sekhemas — 4th Floor) with Last Flame relic"],
       "keyStats": [
@@ -147,6 +154,7 @@
       "levelReq": 1,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/BodyArmours/Uniques/SkinOfTheLoyal.webp",
       "tags": ["resistance-stacking", "hybrid-defense", "breach", "boss-drop"],
       "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
       "keyStats": [
@@ -166,6 +174,7 @@
       "levelReq": 65,
       "canBeChanced": true,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/BodyArmours/Uniques/GeofrisSanctuary.webp",
       "tags": ["strength-scaling", "energy-shield", "life-regen", "chanceable", "warrior"],
       "dropSources": [
         "World Drop (any endgame content)",
@@ -191,6 +200,7 @@
       "levelReq": 52,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/BodyArmours/Uniques/Pragmatism.webp",
       "tags": ["free-charms", "hybrid-defense", "ritual", "boss-drop"],
       "dropSources": ["King in the Mists (Ritual — Crux of Nothingness)"],
       "keyStats": [
@@ -211,6 +221,7 @@
       "levelReq": 65,
       "canBeChanced": false,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/BodyArmours/Uniques/The%20Auspex.webp",
       "tags": ["evasion", "lucky-deflect", "delirium", "boss-drop", "low-life"],
       "dropSources": ["Tangmazu, The Raven Trickster (Delirium — Withered Willow)"],
       "keyStats": [
@@ -232,6 +243,7 @@
       "levelReq": 50,
       "canBeChanced": true,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Charms/Uniques/GoldenUniqueCharm.webp",
       "tags": ["item-rarity", "farming", "chanceable", "wisp"],
       "dropSources": [
         "Azmerian Wisp-possessed enemies (first appear in The Grelwood, Act 1)",
@@ -254,6 +266,7 @@
       "levelReq": 60,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Flasks/Uniques/OlrothsResolve.webp",
       "tags": ["runic-ward", "expedition", "boss-drop", "warrior"],
       "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
       "keyStats": [
@@ -273,6 +286,7 @@
       "levelReq": 33,
       "canBeChanced": false,
       "rarityTier": "SSS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Uniques/HandOfWisdomAndAction.webp",
       "tags": ["attribute-stacking", "lightning", "dex-int", "attack", "breach", "boss-drop"],
       "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
       "keyStats": [
@@ -291,6 +305,7 @@
       "levelReq": 60,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Uniques/Hateforge.webp",
       "tags": ["rage", "charge-generation", "attack", "trial", "boss-drop"],
       "dropSources": ["The Trialmaster (Trial of Chaos)"],
       "keyStats": [
@@ -310,6 +325,7 @@
       "levelReq": 45,
       "canBeChanced": false,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Helmets/Uniques/Assailum.webp",
       "tags": ["perfect-timing", "critical", "melee", "simulacrum", "boss-drop"],
       "dropSources": ["Simulacrum (Delirium — Wave 15)"],
       "keyStats": [
@@ -330,6 +346,7 @@
       "levelReq": 62,
       "canBeChanced": false,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Helmets/Uniques/KeeperOfTheArc.webp",
       "tags": ["damage-reduction", "sustain", "boss-fight", "expedition", "boss-drop"],
       "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
       "keyStats": [
@@ -350,6 +367,7 @@
       "levelReq": 20,
       "canBeChanced": false,
       "rarityTier": "SSS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Jewels/TrialmasterJewel.webp",
       "tags": ["jewel-stacking", "corrupted", "limited-1", "trial", "boss-drop"],
       "dropSources": ["The Trialmaster (Trial of Chaos) — Very Rare"],
       "keyStats": [
@@ -367,6 +385,7 @@
       "levelReq": 20,
       "canBeChanced": false,
       "rarityTier": "SSS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Jewels/ExpeditionJewel.webp",
       "tags": ["timeless-jewel", "passive-tree", "expedition", "boss-drop", "limited-1"],
       "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
       "keyStats": [
@@ -386,6 +405,7 @@
       "levelReq": 20,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Jewels/SacredFlameJewel.webp",
       "tags": ["gem-levels", "corrupted", "limited-1", "citadel", "boss-drop"],
       "dropSources": ["Arbiter of Ash (Citadel Pinnacle Boss) — Very Rare"],
       "keyStats": [
@@ -401,13 +421,14 @@
       "levelReq": 20,
       "canBeChanced": false,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Jewels/BreachJewel.webp",
       "tags": ["passive-allocation", "breach", "boss-drop"],
       "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
       "keyStats": [
         "Radius: Very Small (800)",
         "Only affects Passives in Medium-Large Ring",
         "Passives in Radius can be Allocated without being connected to your tree",
-        "−(20–5)% to all Elemental Resistances"
+        "(−20–5)% to all Elemental Resistances"
       ],
       "whyPowerful": "Allowing unconnected passive allocation in a radius means you can pick up isolated clusters of powerful passives without needing to path through the tree to reach them — effectively adding 5–15+ free passive points worth of value."
     },
@@ -419,6 +440,7 @@
       "levelReq": 20,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Jewels/DeliriumJewel.webp",
       "tags": ["random-notables", "corrupted", "limited-1", "simulacrum", "boss-drop"],
       "dropSources": [
         "Simulacrum (Delirium — Wave 15) — 2-mod: Very Rare; 3-mod: Extremely Rare"
@@ -438,6 +460,7 @@
       "levelReq": 20,
       "canBeChanced": false,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Jewels/Uniques/GrandSpectrum_Sapphire.webp",
       "tags": ["stacking-bonus", "life", "spirit", "resistance", "trial"],
       "dropSources": ["Trial of Sekhemas (Zarokh — 4th Floor caches)"],
       "keyStats": [
@@ -455,6 +478,7 @@
       "levelReq": 20,
       "canBeChanced": false,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Jewels/Uniques/SplitPersonality.webp",
       "tags": ["cross-class", "passive-tree", "corrupted", "limited-1", "delirium", "boss-drop"],
       "dropSources": ["Tangmazu, The Raven Trickster (Delirium — Withered Willow)"],
       "keyStats": [
@@ -470,6 +494,7 @@
       "levelReq": 64,
       "canBeChanced": true,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Rings/Uniques/VentorsGamble.webp",
       "tags": ["item-rarity", "farming", "chanceable", "variable-stats"],
       "dropSources": [
         "Orb of Chance on Normal Gold Ring",
@@ -495,6 +520,7 @@
       "levelReq": 60,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Offhand/Shields/Uniques/Svalinn.webp",
       "tags": ["block", "lucky-block", "cast-on-block", "runic-ward", "warrior", "expedition", "boss-drop"],
       "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
       "keyStats": [
@@ -518,6 +544,7 @@
       "levelReq": 78,
       "canBeChanced": false,
       "rarityTier": "SS",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Uniques/BurdenOfShadows.webp",
       "tags": ["chaos-damage", "life-cost", "caster", "ritual", "boss-drop"],
       "dropSources": ["King in the Mists (Ritual — Crux of Nothingness)"],
       "keyStats": [
@@ -536,6 +563,7 @@
       "levelReq": 65,
       "canBeChanced": false,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/Uniques/Olrovasara.webp",
       "tags": ["lightning", "stacking", "melee", "expedition", "boss-drop", "warrior"],
       "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
       "keyStats": [
@@ -555,6 +583,7 @@
       "levelReq": 45,
       "canBeChanced": true,
       "rarityTier": "A",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/Uniques/BrutusLeadSprinkler.webp",
       "tags": ["strength-scaling", "fire", "melee", "chanceable", "warrior", "campaign"],
       "dropSources": [
         "Orb of Chance on Normal Morning Star",
@@ -580,6 +609,7 @@
       "levelReq": 65,
       "canBeChanced": false,
       "rarityTier": "S",
+      "image": "https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/Crossbows/Uniques/TheRedemption.webp",
       "tags": ["grenade", "mercenary", "world-drop", "0.5-new"],
       "dropSources": [
         "World Drop / Boss Drop (endgame content)",
