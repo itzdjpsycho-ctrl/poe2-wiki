@@ -2,31 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    background-color: #0a0a0a;
-    color: #d4c5a0;
+    background-color: #07050f;
+    background-image:
+      radial-gradient(ellipse at 15% 15%, rgba(124, 58, 237, 0.18) 0%, transparent 55%),
+      radial-gradient(ellipse at 85% 80%, rgba(168, 85, 247, 0.12) 0%, transparent 55%),
+      radial-gradient(ellipse at 50% 50%, rgba(76, 29, 149, 0.07) 0%, transparent 70%);
+    background-attachment: fixed;
+    color: #ddd6f3;
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Cinzel', serif;
-    color: #c89a2a;
+    color: #c084fc;
   }
 
   a {
-    color: #e5b94a;
-    transition: color 0.15s ease;
+    color: #a855f7;
+    transition: color 0.2s ease;
   }
 
   a:hover {
-    color: #c89a2a;
+    color: #c084fc;
   }
 
   ::-webkit-scrollbar {
@@ -34,37 +38,39 @@
   }
 
   ::-webkit-scrollbar-track {
-    background: #0a0a0a;
+    background: #07050f;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #2a2a3a;
+    background: #3d2d6a;
     border-radius: 3px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #9a7420;
+    background: #7c3aed;
   }
 }
 
 @layer components {
+
+  /* ── Prose (knowledge pages) ─────────────────────── */
   .prose-poe {
-    --tw-prose-body: #d4c5a0;
-    --tw-prose-headings: #c89a2a;
-    --tw-prose-lead: #d4c5a0;
-    --tw-prose-links: #e5b94a;
-    --tw-prose-bold: #e5d5b0;
-    --tw-prose-counters: #7a7060;
-    --tw-prose-bullets: #9a7420;
-    --tw-prose-hr: #2a2a3a;
-    --tw-prose-quotes: #d4c5a0;
-    --tw-prose-quote-borders: #9a7420;
-    --tw-prose-captions: #7a7060;
-    --tw-prose-code: #e5b94a;
-    --tw-prose-pre-code: #d4c5a0;
-    --tw-prose-pre-bg: #141414;
-    --tw-prose-th-borders: #2a2a3a;
-    --tw-prose-td-borders: #1e1e2a;
+    --tw-prose-body:          #ddd6f3;
+    --tw-prose-headings:      #c084fc;
+    --tw-prose-lead:          #ddd6f3;
+    --tw-prose-links:         #a855f7;
+    --tw-prose-bold:          #ede9fa;
+    --tw-prose-counters:      #7c6fa0;
+    --tw-prose-bullets:       #7c3aed;
+    --tw-prose-hr:            #3d2d6a;
+    --tw-prose-quotes:        #ddd6f3;
+    --tw-prose-quote-borders: #7c3aed;
+    --tw-prose-captions:      #7c6fa0;
+    --tw-prose-code:          #c084fc;
+    --tw-prose-pre-code:      #ddd6f3;
+    --tw-prose-pre-bg:        rgba(18, 13, 40, 0.8);
+    --tw-prose-th-borders:    #3d2d6a;
+    --tw-prose-td-borders:    #2d1f5e;
   }
 
   .prose-poe h1,
@@ -80,106 +86,148 @@
   }
 
   .prose-poe th {
-    background-color: #1a1a1a;
+    background-color: rgba(30, 21, 69, 0.85);
     font-family: 'Cinzel', serif;
     font-size: 0.8em;
   }
 
   .prose-poe tr:nth-child(even) td {
-    background-color: #0f0f0f;
+    background-color: rgba(18, 13, 40, 0.5);
   }
 
   .prose-poe tr:hover td {
-    background-color: #1a1a1a;
+    background-color: rgba(30, 21, 69, 0.6);
   }
 
+  /* ── Callout ─────────────────────────────────────── */
   .callout-gold {
-    @apply border-l-4 border-poe-gold bg-poe-panel/60 pl-4 py-3 my-4 rounded-r-lg;
-    color: #c8b888;
+    @apply border-l-4 pl-4 py-3 my-4 rounded-r-xl;
+    border-color: #7c3aed;
+    background: rgba(124, 58, 237, 0.08);
+    color: #c4b5fd;
+    backdrop-filter: blur(4px);
   }
 
+  /* ── Cards ───────────────────────────────────────── */
   .card-poe {
-    @apply bg-poe-panel border border-poe-border rounded-lg transition-all duration-200;
+    background: rgba(13, 10, 30, 0.6);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(61, 45, 106, 0.55);
+    border-radius: 14px;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
   }
 
   .card-poe:hover {
-    @apply border-poe-gold/40;
+    border-color: rgba(168, 85, 247, 0.45);
+    box-shadow:
+      0 0 24px rgba(124, 58, 237, 0.18),
+      0 8px 32px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
   }
 
+  /* ── Rarity badges ───────────────────────────────── */
   .badge-sss {
-    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold font-display;
-    background: linear-gradient(135deg, #b8860b, #ffd700, #b8860b);
-    color: #000;
-    text-shadow: none;
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-bold font-display;
+    background: linear-gradient(135deg, #6d28d9, #a855f7, #c084fc);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.55);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
   }
 
   .badge-ss {
-    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold;
-    background-color: #e07020;
-    color: #000;
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-bold;
+    background: linear-gradient(135deg, #5b21b6, #7c3aed);
+    color: #ede9fa;
+    box-shadow: 0 0 6px rgba(124, 58, 237, 0.35);
   }
 
   .badge-s {
-    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold;
-    background-color: #c8a820;
-    color: #000;
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-bold;
+    background-color: #4c1d95;
+    color: #ddd6f3;
   }
 
   .badge-a {
-    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold;
-    background-color: #60a828;
-    color: #000;
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-bold;
+    background-color: #1e3a8a;
+    color: #bfdbfe;
   }
 
   .badge-b {
-    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold;
-    background-color: #506878;
-    color: #fff;
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-bold;
+    background-color: #1f2937;
+    color: #9ca3af;
   }
 
+  /* ── Filter buttons ──────────────────────────────── */
   .btn-filter {
-    @apply px-3 py-1.5 text-sm border border-poe-border rounded transition-all duration-150 cursor-pointer;
-    background-color: #141414;
-    color: #7a7060;
+    @apply px-3 py-1.5 text-sm rounded-lg transition-all duration-200 cursor-pointer;
+    background: rgba(13, 10, 30, 0.55);
+    border: 1px solid rgba(61, 45, 106, 0.5);
+    color: #7c6fa0;
+    backdrop-filter: blur(6px);
   }
 
   .btn-filter:hover {
-    @apply border-poe-gold/50;
-    color: #c89a2a;
+    border-color: rgba(168, 85, 247, 0.5);
+    color: #c084fc;
+    background: rgba(124, 58, 237, 0.1);
   }
 
   .btn-filter.active {
-    @apply border-poe-gold;
-    background-color: #1e1a0a;
-    color: #c89a2a;
+    border-color: #a855f7;
+    background: rgba(124, 58, 237, 0.18);
+    color: #c084fc;
+    box-shadow: 0 0 12px rgba(168, 85, 247, 0.2);
   }
 
+  /* ── Nav links ───────────────────────────────────── */
   .nav-link {
-    @apply flex items-center gap-2 px-3 py-2 rounded text-sm transition-all duration-150;
-    color: #7a7060;
+    @apply flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-all duration-200;
+    color: #7c6fa0;
   }
 
   .nav-link:hover {
-    background-color: #141414;
-    color: #c89a2a;
+    background: rgba(124, 58, 237, 0.1);
+    color: #c084fc;
   }
 
   .nav-link.active {
-    background-color: #1e1a0a;
-    color: #c89a2a;
-    border-left: 2px solid #c89a2a;
+    background: rgba(124, 58, 237, 0.16);
+    color: #c084fc;
+    border-left: 2px solid #a855f7;
+    box-shadow: inset 0 0 16px rgba(168, 85, 247, 0.06);
   }
 }
 
-/* Pagefind UI theming */
+/* ── Floating glow blobs animation ───────────────────── */
+@keyframes blob-float-a {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%       { transform: translate(40px, -35px) scale(1.08); }
+}
+@keyframes blob-float-b {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%       { transform: translate(-35px, 45px) scale(1.06); }
+}
+@keyframes blob-float-c {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%       { transform: translate(25px, 30px) scale(1.04); }
+}
+
+.glow-blob-a { animation: blob-float-a 18s ease-in-out infinite; }
+.glow-blob-b { animation: blob-float-b 22s ease-in-out infinite; }
+.glow-blob-c { animation: blob-float-c 26s ease-in-out infinite; }
+
+/* ── Pagefind UI ─────────────────────────────────────── */
 :root {
   --pagefind-ui-scale: 0.9;
-  --pagefind-ui-primary: #c89a2a;
-  --pagefind-ui-text: #d4c5a0;
-  --pagefind-ui-background: #141414;
-  --pagefind-ui-border: #2a2a3a;
-  --pagefind-ui-tag: #2a2a3a;
+  --pagefind-ui-primary: #a855f7;
+  --pagefind-ui-text: #ddd6f3;
+  --pagefind-ui-background: rgba(13, 10, 30, 0.85);
+  --pagefind-ui-border: #3d2d6a;
+  --pagefind-ui-tag: #2d1f5e;
   --pagefind-ui-border-width: 1px;
-  --pagefind-ui-border-radius: 4px;
+  --pagefind-ui-border-radius: 8px;
   --pagefind-ui-font: 'Inter', sans-serif;
 }
