@@ -1,0 +1,58 @@
+---
+const tiers = ['All', 'SSS', 'SS', 'S', 'A', 'B'];
+---
+
+<div class="mb-6 space-y-3">
+  <input
+    type="text"
+    id="gem-search"
+    placeholder="Search gems by name or tag..."
+    class="w-full max-w-md px-3 py-2 bg-poe-panel border border-poe-border rounded text-poe-text text-sm placeholder-poe-muted focus:border-poe-gold focus:outline-none"
+  />
+
+  <div class="flex flex-wrap gap-2 items-center">
+    <span class="text-xs text-poe-muted uppercase tracking-wider min-w-10">Tier</span>
+    {tiers.map(tier => (
+      <button class="btn-filter" data-gem-filter="tier" data-value={tier.toLowerCase()}>{tier}</button>
+    ))}
+  </div>
+
+  <p class="text-xs text-poe-muted" id="gems-count"></p>
+</div>
+
+<script>
+  type GemState = { tier: string; search: string };
+  const gs: GemState = { tier: 'all', search: '' };
+
+  function applyGemFilters() {
+    const items = document.querySelectorAll<HTMLElement>('#gems-grid article');
+    let count = 0;
+    items.forEach(el => {
+      const match =
+        (gs.tier === 'all' || (el.dataset.tier ?? '').toLowerCase() === gs.tier) &&
+        (!gs.search || (el.dataset.name ?? '').includes(gs.search) || (el.dataset.tags ?? '').includes(gs.search));
+      el.toggleAttribute('hidden', !match);
+      if (match) count++;
+    });
+    const el = document.getElementById('gems-count');
+    if (el) el.textContent = `Showing ${count} of ${items.length} gems`;
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('[data-gem-filter]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.dataset.gemFilter!;
+      document.querySelectorAll<HTMLButtonElement>(`[data-gem-filter="${group}"]`).forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      (gs as Record<string, string>)[group] = btn.dataset.value ?? 'all';
+      applyGemFilters();
+    });
+  });
+
+  document.getElementById('gem-search')?.addEventListener('input', e => {
+    gs.search = (e.target as HTMLInputElement).value.toLowerCase();
+    applyGemFilters();
+  });
+
+  document.querySelectorAll<HTMLButtonElement>('[data-gem-filter][data-value="all"]').forEach(b => b.classList.add('active'));
+  applyGemFilters();
+</script>

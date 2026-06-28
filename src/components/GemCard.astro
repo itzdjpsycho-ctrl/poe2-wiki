@@ -1,0 +1,63 @@
+---
+import RarityBadge from './RarityBadge.astro';
+
+interface Gem {
+  id: string;
+  name: string;
+  category: string;
+  levelReq: number;
+  rarityTier: string;
+  approxPrice: string;
+  dropSources: string[];
+  keyStats: string[];
+  whyPowerful: string;
+  tags: string[];
+}
+
+interface Props {
+  gem: Gem;
+}
+
+const { gem } = Astro.props;
+---
+
+<article
+  class="card-poe p-4"
+  data-category={gem.category.toLowerCase().replace(/ /g, '-').replace(/[()]/g, '')}
+  data-tier={gem.rarityTier}
+  data-name={gem.name.toLowerCase()}
+  data-tags={gem.tags.join(' ')}
+>
+  <header class="flex items-start justify-between gap-3 mb-2">
+    <div class="min-w-0">
+      <h3 class="font-display text-poe-gold text-sm leading-tight">{gem.name}</h3>
+      <p class="text-xs text-poe-muted mt-0.5">{gem.category} · Lvl {gem.levelReq}</p>
+    </div>
+    <div class="flex items-center gap-2 shrink-0">
+      <RarityBadge tier={gem.rarityTier as 'SSS' | 'SS' | 'S' | 'A' | 'B'} />
+    </div>
+  </header>
+
+  <p class="text-xs text-poe-gold/60 mb-2">{gem.approxPrice}</p>
+
+  <ul class="space-y-0.5 mb-3">
+    {gem.keyStats.map(stat => (
+      <li class="text-xs text-poe-text/80 leading-relaxed">{stat}</li>
+    ))}
+  </ul>
+
+  <details>
+    <summary class="text-poe-gold/60 text-xs cursor-pointer hover:text-poe-gold select-none transition-colors">
+      Why It's Powerful
+    </summary>
+    <div class="callout-gold mt-2 text-xs leading-relaxed">
+      {gem.whyPowerful}
+    </div>
+  </details>
+
+  <div class="mt-3 pt-2 border-t border-poe-border/40">
+    <p class="text-xs text-poe-muted leading-relaxed">
+      {gem.dropSources.join(' · ')}
+    </p>
+  </div>
+</article>

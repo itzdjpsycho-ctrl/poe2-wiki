@@ -1,0 +1,87 @@
+---
+const slots = ['All', 'Amulet', 'Belt', 'Body Armour', 'Charm', 'Flask', 'Gloves', 'Helmet', 'Jewel', 'Ring', 'Shield', 'Weapon'];
+const tiers = ['All', 'SSS', 'SS', 'S', 'A', 'B'];
+---
+
+<div class="mb-6 space-y-3">
+  <input
+    type="text"
+    id="item-search"
+    placeholder="Search items by name or tag..."
+    class="w-full max-w-md px-3 py-2 bg-poe-panel border border-poe-border rounded text-poe-text text-sm placeholder-poe-muted focus:border-poe-gold focus:outline-none"
+  />
+
+  <div class="flex flex-wrap gap-2 items-center">
+    <span class="text-xs text-poe-muted uppercase tracking-wider min-w-10">Slot</span>
+    {slots.map(slot => (
+      <button
+        class="btn-filter"
+        data-filter="slot"
+        data-value={slot === 'All' ? 'all' : slot.toLowerCase().replace(/ /g, '-')}
+      >{slot}</button>
+    ))}
+  </div>
+
+  <div class="flex flex-wrap gap-2 items-center">
+    <span class="text-xs text-poe-muted uppercase tracking-wider min-w-10">Tier</span>
+    {tiers.map(tier => (
+      <button class="btn-filter" data-filter="tier" data-value={tier.toLowerCase()}>{tier}</button>
+    ))}
+  </div>
+
+  <div class="flex flex-wrap gap-2 items-center">
+    <span class="text-xs text-poe-muted uppercase tracking-wider min-w-10">Source</span>
+    <button class="btn-filter" data-filter="chanceable" data-value="all">All</button>
+    <button class="btn-filter" data-filter="chanceable" data-value="true">Chanceable</button>
+    <button class="btn-filter" data-filter="chanceable" data-value="false">Boss Drop Only</button>
+  </div>
+
+  <p class="text-xs text-poe-muted" id="items-count"></p>
+</div>
+
+<script>
+  type FilterState = {
+    slot: string;
+    tier: string;
+    chanceable: string;
+    search: string;
+  };
+
+  const state: FilterState = { slot: 'all', tier: 'all', chanceable: 'all', search: '' };
+
+  function applyFilters() {
+    const items = document.querySelectorAll<HTMLElement>('#items-grid article');
+    let count = 0;
+    items.forEach(el => {
+      const match =
+        (state.slot === 'all' || el.dataset.slot === state.slot) &&
+        (state.tier === 'all' || (el.dataset.tier ?? '').toLowerCase() === state.tier) &&
+        (state.chanceable === 'all' || el.dataset.chanceable === state.chanceable) &&
+        (!state.search || (el.dataset.name ?? '').includes(state.search) || (el.dataset.tags ?? '').includes(state.search));
+
+      el.toggleAttribute('hidden', !match);
+      if (match) count++;
+    });
+    const el = document.getElementById('items-count');
+    if (el) el.textContent = `Showing ${count} of ${items.length} items`;
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.btn-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.dataset.filter!;
+      document.querySelectorAll<HTMLButtonElement>(`[data-filter="${group}"]`).forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      (state as Record<string, string>)[group] = btn.dataset.value ?? 'all';
+      applyFilters();
+    });
+  });
+
+  document.getElementById('item-search')?.addEventListener('input', e => {
+    state.search = (e.target as HTMLInputElement).value.toLowerCase();
+    applyFilters();
+  });
+
+  // Set initial active state on "All" buttons
+  document.querySelectorAll<HTMLButtonElement>('[data-value="all"]').forEach(b => b.classList.add('active'));
+  applyFilters();
+</script>

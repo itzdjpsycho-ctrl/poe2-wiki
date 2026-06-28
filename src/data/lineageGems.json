@@ -1,0 +1,443 @@
+{
+  "gems": [
+    {
+      "id": "rigwalds-ferocity",
+      "name": "Rigwald's Ferocity",
+      "category": "Dual Wield",
+      "levelReq": 65,
+      "rarityTier": "SSS",
+      "approxPrice": "~150 Divine Orbs",
+      "dropSources": ["Avelyne, the Withered Rose", "Varloch, the Ashen Lord"],
+      "keyStats": [
+        "Weapon Set I: 30% increased Attack Speed, 15% less Damage",
+        "Weapon Set II: 10% reduced Attack Speed, 30% more Damage"
+      ],
+      "whyPowerful": "Lets attack builds use two distinct modes on demand — fast clear speed via Set I, then burst single-target via Set II. The 30% more Damage in Set II is a multiplicative modifier, stacking with all other damage bonuses.",
+      "tags": ["attack", "weapon-swap", "dps-rotation", "dual-wield"]
+    },
+    {
+      "id": "seraphs-heart",
+      "name": "Seraph's Heart",
+      "category": "Persistent Buff",
+      "levelReq": 65,
+      "rarityTier": "SSS",
+      "approxPrice": "~130 Divine Orbs",
+      "dropSources": ["Source unconfirmed (high trade volume)"],
+      "keyStats": [
+        "Supports Persistent Buff Skills (Heralds, Auras, Defensive Buffs)",
+        "Enemy Hits have 20% chance to treat all your Resistances as being 90% while a Supported Skill is active",
+        "Spirit Reservation: 45"
+      ],
+      "whyPowerful": "A 20% chance to effectively cap all resistances at 90% for a hit is a significant damage reduction layer. Works with any persistent buff skill — Heralds, Auras, Arctic Armour — no specific playstyle required.",
+      "tags": ["defensive", "resistance", "aura", "persistent-buff"]
+    },
+    {
+      "id": "breachlords-rift",
+      "name": "Breachlord's Rift",
+      "category": "Armour Break",
+      "levelReq": 65,
+      "rarityTier": "SS",
+      "approxPrice": "~20 Divine Orbs",
+      "dropSources": ["General drop (level 52+)"],
+      "keyStats": [
+        "Supported Skills Break 50% of Armour when Freezing or Electrocuting targets",
+        "Fully Broken Armour inflicted with Supported Skills also increases Cold and Lightning Damage Taken from Hits",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "Breaking 50% armour on every freeze or electrocute is an enormous penetration effect. Fully Broken Armour adds additional damage-taken multiplier. Best in slot for any cold or lightning build that can reliably freeze or electrocute.",
+      "tags": ["cold", "lightning", "armour-break", "freeze", "electrocute"]
+    },
+    {
+      "id": "ixchels-torment",
+      "name": "Ixchel's Torment",
+      "category": "Fluke",
+      "levelReq": 65,
+      "rarityTier": "S",
+      "approxPrice": "~10.7 Divine Orbs",
+      "dropSources": ["The Trialmaster (Trial of Chaos)"],
+      "keyStats": [
+        "Triggered skills deal between 40% less and 60% more Damage (random per trigger)",
+        "Triggered skills gain between 40% less and 50% more Area of Effect (random per trigger)",
+        "Triggered skills gain between 40% less and 50% more Projectile Speed (random per trigger)",
+        "Cost Multiplier: 120%"
+      ],
+      "whyPowerful": "On lucky rolls, triggered skills deal 60% more damage and have 50% larger area — enormous bonuses. For builds using many triggered skills per second, the average outcome is net positive due to how often peak rolls occur in rapid succession.",
+      "tags": ["trigger", "totem", "random", "aoe"]
+    },
+    {
+      "id": "uhttreds-constellation",
+      "name": "Uhtred's Constellation",
+      "category": "Second Wind",
+      "levelReq": 65,
+      "rarityTier": "S",
+      "approxPrice": "~3.73 Divine Orbs",
+      "dropSources": ["Uhtred, the Stardrinker"],
+      "keyStats": [
+        "Supported Skills have 50% less Cooldown Recovery Rate",
+        "Supported Non-Instant Skills have +2 Cooldown Uses",
+        "Supported Skills deal 8% more Damage for each different Skill with a Cooldown you have used in the last 8 seconds",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "+2 Cooldown Uses means you can use a cooldown skill 3 times before waiting. 8% more damage per cooldown skill used rewards running multiple cooldown abilities — 4 active cooldown skills = 32% more damage.",
+      "tags": ["cooldown", "warcry", "damage-scaling"]
+    },
+    {
+      "id": "siones-temper",
+      "name": "Sione's Temper",
+      "category": "Additional Projectiles",
+      "levelReq": 65,
+      "rarityTier": "S",
+      "approxPrice": "~77 Exalted Orbs",
+      "dropSources": ["Source unconfirmed (high trade volume)"],
+      "keyStats": [
+        "Gain 1 Wildshard on casting Supported Spells",
+        "20% chance to fire 8 additional Projectiles in a circle per Wildshard",
+        "All Wildshards reset when Supported Skills fire Projectiles in a circle",
+        "Compatible with Firebolt, Spark, Arc, Fireball, and 19+ others"
+      ],
+      "whyPowerful": "Accumulating Wildshards builds to a chance to fire a massive 8-projectile circle burst — covers 360° around the player. Outstanding for mapping: the circle burst clears packs in all directions simultaneously.",
+      "tags": ["spell", "projectile", "mapping", "aoe", "circle"]
+    },
+    {
+      "id": "uhttreds-exodus",
+      "name": "Uhtred's Exodus",
+      "category": "Uhtred of Kalguur",
+      "levelReq": 65,
+      "rarityTier": "A",
+      "approxPrice": "High value (check poe.ninja)",
+      "dropSources": ["Olroth, Origin of the Fall"],
+      "keyStats": [
+        "+3 to Level of Supported Skills if no other Supports are modifying them",
+        "Requires the supported skill to have zero other support gems",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "+3 gem levels is a massive scaling bonus on skills where gem level is the primary damage driver (Spark, Ball Lightning, Arc). Trades all other support benefits for raw power — best for builds where the skill itself is inherently strong.",
+      "tags": ["gem-levels", "caster", "solo-support", "spell"]
+    },
+    {
+      "id": "uhttreds-omen",
+      "name": "Uhtred's Omen",
+      "category": "Uhtred of Kalguur",
+      "levelReq": 65,
+      "rarityTier": "A",
+      "approxPrice": "High value (check poe.ninja)",
+      "dropSources": ["Olroth, Origin of the Fall"],
+      "keyStats": [
+        "+2 to Level of Supported Skills if exactly one other Support is modifying them",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "+2 gem levels with one other support gem gives more flexibility than Exodus — you can still add a powerful support. Ideal pairing: Uhtred's Omen + one high-value generic support (e.g. Added Lightning Damage, Concentrated Effect).",
+      "tags": ["gem-levels", "caster", "spell", "expedition"]
+    },
+    {
+      "id": "uhttreds-augury",
+      "name": "Uhtred's Augury",
+      "category": "Uhtred of Kalguur",
+      "levelReq": 65,
+      "rarityTier": "A",
+      "approxPrice": "High value (check poe.ninja)",
+      "dropSources": ["Olroth, Origin of the Fall"],
+      "keyStats": [
+        "+2 to Level of Supported Skills if exactly two other Supports are modifying them",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "The most flexible of the Uhtred trio — +2 gem levels alongside two other supports, allowing a conventional 3-support setup while still gaining the Lineage gem level boost.",
+      "tags": ["gem-levels", "caster", "spell", "expedition"]
+    },
+    {
+      "id": "rakiatas-flow",
+      "name": "Rakiata's Flow",
+      "category": "Inversion",
+      "levelReq": 65,
+      "rarityTier": "A",
+      "approxPrice": "High value (check poe.ninja)",
+      "dropSources": ["Manoki, the Chosen"],
+      "keyStats": [
+        "Hits with Supported Skills treat Enemy Monster Elemental Resistance values as inverted",
+        "Supports Skills that can cause Damaging Hits (269 compatible skills)",
+        "Mana Cost: 120%"
+      ],
+      "whyPowerful": "'Inverted' means an enemy with 50% fire resistance is instead treated as having -50% fire resistance — a 100-percentage-point swing. One of the highest flat damage multipliers against resistant enemies; BiS for elemental hit builds without penetration stacking.",
+      "tags": ["elemental", "penetration", "all-elements", "hit"]
+    },
+    {
+      "id": "zarokhs-refrain",
+      "name": "Zarokh's Refrain",
+      "category": "Spell Echo",
+      "levelReq": 65,
+      "rarityTier": "A",
+      "approxPrice": "High value (check poe.ninja)",
+      "dropSources": ["Zahmir, the Blade Sovereign", "Zarokh, the Temporal"],
+      "keyStats": [
+        "Supported Spells Echo 3 times",
+        "Echoes from Supported Spells have 40% increased Area of Effect",
+        "Cooldown Time: 5.00 seconds",
+        "Mana Cost: 130%"
+      ],
+      "whyPowerful": "3 echoes = 4 casts per trigger — a 4× hits-per-cast multiplier for elemental damage, ailment buildup, and on-hit effects. The 40% increased AoE on echoes fills larger areas progressively. Outperforms standard Spell Echo for builds that can accommodate the cooldown.",
+      "tags": ["spell", "echo", "aoe", "cooldown", "caster"]
+    },
+    {
+      "id": "dominus-grasp",
+      "name": "Dominus' Grasp",
+      "category": "Chaining",
+      "levelReq": 65,
+      "rarityTier": "A",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["General drop (level 52+)"],
+      "keyStats": [
+        "Supported Skills Chain 100% more times",
+        "Supports Projectile skills and skills that Chain",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "Doubling chain count dramatically increases enemies hit per cast — essential for clear-speed chain builds. 100% more chains is multiplicative — a skill that chains 3 times base now chains 6 times. Universal value for bow, wand, and chain-spell builds.",
+      "tags": ["projectile", "chain", "clear-speed", "mapping", "bow"]
+    },
+    {
+      "id": "diallas-desire",
+      "name": "Dialla's Desire",
+      "category": "Level Scaling",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["General drop (level 52+)"],
+      "keyStats": [
+        "+1 to Level of Supported Skill Gems",
+        "+5% to Quality of Supported Skills",
+        "Cost Multiplier: 90% (reduces cost)",
+        "Reservation Multiplier: 90% (reduces reservation)"
+      ],
+      "whyPowerful": "A net-positive gem in almost every slot — adds gem level and quality while reducing both cost and reservation. The 90% reservation multiplier makes it valuable for aura and persistent buff builds where reducing spirit cost is critical.",
+      "tags": ["gem-levels", "quality", "aura", "cost-reduction", "flex"]
+    },
+    {
+      "id": "eonyrs-thunder",
+      "name": "Eonyr's Thunder",
+      "category": "Electrocute",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["General drop (source unconfirmed)"],
+      "keyStats": [
+        "Lightning damage from Supported Skills can inflict Electrocute",
+        "Supported Skills Cannot inflict Shock (Electrocute replaces Shock)",
+        "Electrocuted enemies explode via Voltaic Fulmination on death: 5–14% max life as Lightning damage, 1.5–2.1m radius"
+      ],
+      "whyPowerful": "Electrocute is a stronger crowd-control effect than Shock — enemies are paralysed entirely. The corpse explosion chains through packs. Synergises directly with Breachlord's Rift (break armour on electrocute).",
+      "tags": ["lightning", "electrocute", "crowd-control", "explosion", "clear-speed"]
+    },
+    {
+      "id": "eshs-prowess",
+      "name": "Esh's Prowess",
+      "category": "Mastery (Lightning)",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Accessible (check poe.ninja)",
+      "dropSources": ["It That Was Esh", "It That Was Tul"],
+      "keyStats": [
+        "+1 to Level of Supported Lightning Skills",
+        "Supported Skills only roll the minimum or maximum Damage value for Lightning Damage",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "+1 gem level is a free damage boost. Rolling only min or max lightning damage removes variable middle values — in practice, lightning skills that roll consistently at their maximum deal significantly higher average damage.",
+      "tags": ["lightning", "gem-levels", "damage-consistency", "breach"]
+    },
+    {
+      "id": "arakaalis-lust",
+      "name": "Arakaali's Lust",
+      "category": "Poison Scaling",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["General drop (level 52+)"],
+      "keyStats": [
+        "8% more Damage with Hits for each Poison on the Enemy, up to 40%",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "On a target with 5 poisons, this is a 40% more Damage multiplier — significant multiplicative bonus. Unlike most poison supports, this affects Hit damage, not poison damage — meaning it benefits fast-hit builds that apply many poisons quickly.",
+      "tags": ["poison", "hit", "damage-scaling", "pathfinder"]
+    },
+    {
+      "id": "tecrods-revenge",
+      "name": "Tecrod's Revenge",
+      "category": "Last Gasp",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["Vessel of Kulemak"],
+      "keyStats": [
+        "Minions from Supported Skills die 20 seconds after their Life is reduced to 0",
+        "Minions from Supported Skills gain Soul Eater when their Life is reduced to 0",
+        "Minions gain 40% increased Attack and Cast Speed when their Life is reduced to 0"
+      ],
+      "whyPowerful": "Minions that would die instead enter a 20-second 'last gasp' mode with Soul Eater — they start consuming nearby souls and gaining stacking stats, becoming temporarily stronger than at full health. Turns death into a DPS cooldown for each minion.",
+      "tags": ["minion", "soul-eater", "necromancer", "witch"]
+    },
+    {
+      "id": "tricksters-shard",
+      "name": "Trickster's Shard",
+      "category": "Spell Echo",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["The Raven Trickster"],
+      "keyStats": [
+        "Casting the supported spell triggers Fragment Self — creates up to 4 Fractured Mimics",
+        "Fractured Mimics last 5 seconds and cast the spell",
+        "Supported Spells deal 50% less Damage when cast by Fractured Mimics",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "4 Mimics casting the spell = 5 total casts — even with the 50% less damage penalty the net DPS is significantly higher. Mimics are placed around the player and fire outward — effectively creates a burst AoE radius of coverage.",
+      "tags": ["spell", "clone", "burst", "boss-fight", "caster"]
+    },
+    {
+      "id": "atziri-allure",
+      "name": "Atziri's Allure",
+      "category": "Curse Extension",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["Maztli, Flesh-Shaper", "Ytzara, Blood Oracle"],
+      "keyStats": [
+        "Curses inflicted by Supported Skills ignore the usual Curse Limit",
+        "Curses inflicted by Supported Skills are reflected back to you",
+        "Supported Skills have 20% less Curse Effect",
+        "Compatible with all 9 curse spells"
+      ],
+      "whyPowerful": "Ignoring the curse limit means applying any number of curses to enemies simultaneously — normally capped at 1. The reflected curse is the tradeoff — you also receive the curse effect. Enormous boost for dedicated curse builds that can handle the self-curse penalties.",
+      "tags": ["curse", "caster", "hex", "support", "tradeoff"]
+    },
+    {
+      "id": "garukhans-resolve",
+      "name": "Garukhan's Resolve",
+      "category": "Bifurcate",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Accessible (check poe.ninja)",
+      "dropSources": ["Zahmir, the Blade Sovereign"],
+      "keyStats": [
+        "Maximum Critical Hit chance with Supported Skills is 50%",
+        "Attack Critical Hit Chance with Supported Skills Bifurcates",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "Bifurcating crit chance means whenever you crit, the crit chance is split and applied twice — ensuring all attacks get some crit benefit at the cost of the 50% max cap. Makes crit extremely reliable without fully committing to 100% crit investment.",
+      "tags": ["critical", "attack", "consistency", "crit-build"]
+    },
+    {
+      "id": "varastas-blessing",
+      "name": "Varashta's Blessing",
+      "category": "Command Synergy",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["Zahmir, the Blade Sovereign", "Zarokh, the Temporal"],
+      "keyStats": [
+        "Supported Skills deal 10% more Damage for each different Command Skill you have used in the last 15 seconds",
+        "Cannot modify Minion skills",
+        "Cost Multiplier: 120%"
+      ],
+      "whyPowerful": "Using 4 different Command Skills in any 15-second window grants 40% more Damage — a large multiplicative bonus. Rewards active players who micromanage minion commands rather than a passive summoner style.",
+      "tags": ["command", "minion", "active-play", "damage-scaling"]
+    },
+    {
+      "id": "xophs-pyre",
+      "name": "Xoph's Pyre",
+      "category": "Chaos Cross-Contribution",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["Xesht, We That Are One (Breach)"],
+      "keyStats": [
+        "Supported Skills gain 40% of Fire damage as extra Chaos damage",
+        "Chaos damage from Supported Skills contributes to Ignite Buildup and Ignite Magnitude",
+        "Cost Multiplier: 120%"
+      ],
+      "whyPowerful": "Fire builds gain a substantial bonus Chaos damage output — 40% of fire becomes chaos, bypassing chaos resistance stacking. Chaos damage contributing to Ignite creates a synergistic loop — the extra chaos hits make your ignites stronger.",
+      "tags": ["fire", "chaos", "ignite", "hybrid", "breach"]
+    },
+    {
+      "id": "einhars-beastrite",
+      "name": "Einhar's Beastrite",
+      "category": "Behead",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "~15.5 Exalted Orbs",
+      "dropSources": ["Avelyne, the Withered Rose", "Varloch, the Ashen Lord"],
+      "keyStats": [
+        "Killing Blows from Supported Strike Skills against Rare monsters grant two of their Modifiers for 300 seconds",
+        "Supported Skills can only damage Low Life enemies",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "Grants 2 modifiers from killed Rare monsters for 5 minutes — effectively copying enemy buffs. The 'Low Life only' restriction requires a companion skill to bring enemies low first, but the upside is substantial temporary buffs in endgame maps.",
+      "tags": ["melee", "strike", "rare-mods", "active-play", "farming"]
+    },
+    {
+      "id": "her-declaration",
+      "name": "Her Declaration",
+      "category": "Presence",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Moderate (check poe.ninja)",
+      "dropSources": ["The Arbiter of Divinity"],
+      "keyStats": [
+        "Enemies entering your Presence while a Supported Skill is active are Intimidated for 4 seconds",
+        "Supports Persistent Buff Skills",
+        "Spirit Reservation: 30"
+      ],
+      "whyPowerful": "Intimidated enemies deal reduced damage to you — effectively a defensive aura that activates whenever enemies approach. Works with any persistent buff (Herald, Aura, Arctic Armour) — extremely flexible socket.",
+      "tags": ["defensive", "intimidate", "persistent-buff", "aura", "pinnacle"]
+    },
+    {
+      "id": "olroths-hubris",
+      "name": "Olroth's Hubris",
+      "category": "Runic Ward",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "Unknown (new in 0.5 — check poe.ninja)",
+      "dropSources": ["Source unconfirmed (0.5.0 addition)"],
+      "keyStats": [
+        "Supported Skills cost an additional 20% of maximum Runic Ward",
+        "Adds Cold damage equal to 15% of Runic Ward cost",
+        "Adds Physical damage equal to 15% of Runic Ward cost",
+        "Physical damage from Supported Skills contributes to Freeze Buildup"
+      ],
+      "whyPowerful": "Runic Ward (the Warrior's defensive resource) is converted into a damage source — attacks spend shield to deal bonus Physical and Cold damage. Physical damage contributing to Freeze is unusual — melee builds can contribute to freeze buildup without cold investment.",
+      "tags": ["runic-ward", "warrior", "cold", "physical", "freeze", "0.5-new"]
+    },
+    {
+      "id": "uhttreds-rite",
+      "name": "Uhtred's Rite",
+      "category": "Second Wind",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "~20 Exalted Orbs",
+      "dropSources": ["Uhtred, the Stardrinker"],
+      "keyStats": [
+        "Grants Overflowing Chalice when used (1 second duration per 1 second of cooldown)",
+        "Supported Skills deal 20% more Damage while any Life Flask is active",
+        "Supported Skills gain 20% increased Mana Cost Efficiency during any Mana Flask effect",
+        "Mana Cost: 100%"
+      ],
+      "whyPowerful": "Ties cooldown skill usage directly to flask uptime — builds that maintain flask uptime gain a free 20% more damage multiplier. Particularly strong on warcry builds that already want flask uptime for other bonuses.",
+      "tags": ["cooldown", "flask", "warcry", "warrior"]
+    },
+    {
+      "id": "breachlords-amalgam",
+      "name": "Breachlord's Amalgam",
+      "category": "Returning Projectiles",
+      "levelReq": 65,
+      "rarityTier": "B",
+      "approxPrice": "~2.5 Divine Orbs",
+      "dropSources": ["General drop (level 52+, 0.5.0 addition)"],
+      "keyStats": [
+        "Projectiles from Supported Skills Return to you",
+        "Returning Projectiles from Supported Skills Pierce all targets",
+        "Cooldown Time: 6.00 seconds (3 uses)",
+        "Mana Cost: 100%",
+        "Supports Lightning or Cold damage skills that fire Projectiles"
+      ],
+      "whyPowerful": "Projectiles that return pass through every enemy twice (out and back), doubling hit count per projectile. Returning projectiles pierce all targets — every enemy on the return path gets hit regardless of Pierce investment.",
+      "tags": ["projectile", "lightning", "cold", "bow", "returning", "0.5-new"]
+    }
+  ]
+}

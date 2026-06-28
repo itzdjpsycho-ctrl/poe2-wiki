@@ -1,0 +1,32 @@
+---
+import BrowserLayout from '../layouts/BrowserLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BrowserLayout title="Search" description="Search all Path of Exile 2 knowledge, items, and gems">
+  <div class="max-w-3xl mx-auto">
+    <h1 class="font-display text-2xl text-poe-gold mb-2">Search</h1>
+    <p class="text-poe-muted text-sm mb-8">Search across all knowledge pages, chase items, and lineage gems.</p>
+
+    <div id="pagefind-ui"></div>
+
+    <p class="text-xs text-poe-muted mt-8">
+      Search is only available on the deployed site (GitHub Pages). Run <code class="text-poe-gold">npm run build:full</code> then <code class="text-poe-gold">npm run preview</code> to test locally.
+    </p>
+  </div>
+</BrowserLayout>
+
+<link href={`${base}pagefind/pagefind-ui.css`} rel="stylesheet" />
+<script src="/pagefind/pagefind-ui.js" is:inline></script>
+<script define:vars={{ base }}>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (typeof PagefindUI !== 'undefined') {
+      new PagefindUI({
+        element: '#pagefind-ui',
+        showSubResults: true,
+        baseUrl: base,
+      });
+    }
+  });
+</script>

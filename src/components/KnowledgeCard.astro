@@ -1,0 +1,18 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  tag?: string;
+}
+
+const { title, description, href, tag } = Astro.props;
+---
+
+<a href={href} class="card-poe block p-5 hover:border-poe-gold/50 group no-underline">
+  {tag && (
+    <span class="text-xs text-poe-muted font-semibold uppercase tracking-wider mb-2 block">{tag}</span>
+  )}
+  <h3 class="font-display text-poe-gold text-base mb-2 group-hover:text-poe-gold-light transition-colors">{title}</h3>
+  <p class="text-poe-muted text-sm leading-relaxed">{description}</p>
+</a>

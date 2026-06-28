@@ -1,0 +1,599 @@
+{
+  "items": [
+    {
+      "id": "choir-of-the-storm",
+      "name": "Choir of the Storm",
+      "slot": "Amulet",
+      "base": "Jade Amulet",
+      "levelReq": 55,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["lightning", "crit", "breach", "boss-drop"],
+      "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
+      "keyStats": [
+        "Grants Skill: Level 13 Lightning Bolt",
+        "+(10–15) to Dexterity",
+        "+(50–100)% to Lightning Resistance",
+        "Critical Hits Ignore Enemy Monster Lightning Resistance",
+        "Trigger Lightning Bolt Skill on Critical Hit"
+      ],
+      "whyPowerful": "Triggering Lightning Bolt on every critical hit adds a free high-damage hit with no resource cost. Critical Hits ignoring lightning resistance is a massive DPS increase — any crit-stacking lightning build uses this as a core item."
+    },
+    {
+      "id": "the-pandemonius",
+      "name": "The Pandemonius",
+      "slot": "Amulet",
+      "base": "Lapis Amulet",
+      "levelReq": 52,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["cold", "penetration", "blind", "breach", "boss-drop"],
+      "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
+      "keyStats": [
+        "+(10–15) to Intelligence",
+        "+(50–100)% to Cold Resistance",
+        "Damage Penetrates 75% Cold Resistance",
+        "Blind Chilled Enemies on Hit"
+      ],
+      "whyPowerful": "75% Cold Penetration is an enormous damage multiplier. Blind on Chill means any chilled enemy is also blinded, giving 50% reduced enemy accuracy — strong defensive effect from a damage-focused item."
+    },
+    {
+      "id": "strugglescream",
+      "name": "Strugglescream",
+      "slot": "Amulet",
+      "base": "Stellar Amulet",
+      "levelReq": 52,
+      "canBeChanced": false,
+      "rarityTier": "S",
+      "tags": ["instilled-mods", "simulacrum", "boss-drop"],
+      "dropSources": ["Simulacrum (Delirium — Wave 15)"],
+      "keyStats": [
+        "+(5–7) to all Attributes",
+        "Can have 3 additional Instilled Modifiers"
+      ],
+      "whyPowerful": "Instilled Modifiers are powerful enchanted mods normally limited to 1 per item — Strugglescream allows 4 total, turning the amulet slot into a highly customisable combination of 4 enchanted effects."
+    },
+    {
+      "id": "mageblood",
+      "name": "Mageblood",
+      "slot": "Belt",
+      "base": "Utility Belt",
+      "levelReq": 55,
+      "canBeChanced": true,
+      "rarityTier": "SSS",
+      "tags": ["flask", "charm", "ritual", "chanceable", "endgame", "mapping"],
+      "dropSources": [
+        "Ritual Tribute (best method — Freedom of Faith tablet)",
+        "Orb of Chance on Normal Utility Belt (very low odds)",
+        "World/Boss Drop (extremely rare)",
+        "Player Trade"
+      ],
+      "keyStats": [
+        "Has (1–3) Charm Slots",
+        "20% of Flask Recovery applied Instantly",
+        "All Mage's Legacies have (25–50)% increased effect per duplicate"
+      ],
+      "whyPowerful": "Four fixed Mage's Legacy mods each provide powerful persistent flask effects. Duplicating any Legacy multiplies its effect by 25–50% per copy. One of the most expensive and build-defining items in the game."
+    },
+    {
+      "id": "headhunter",
+      "name": "Headhunter",
+      "slot": "Belt",
+      "base": "Heavy Belt",
+      "levelReq": 50,
+      "canBeChanced": true,
+      "rarityTier": "SSS",
+      "tags": ["clear-speed", "mapping", "chanceable", "endgame"],
+      "dropSources": [
+        "Orb of Chance on Normal Heavy Belt",
+        "World Drop (any endgame content)",
+        "Player Trade"
+      ],
+      "keyStats": [
+        "(20–30)% increased Stun Threshold",
+        "+(40–60) to maximum Life",
+        "+(20–40) to Strength",
+        "+(20–40) to Dexterity",
+        "When you kill a Rare monster, you gain its Modifiers for 60 seconds",
+        "Has (1–3) Charm Slots"
+      ],
+      "whyPowerful": "Absorbing rare monster mods on kill is exponentially powerful in high-density content — after a few kills you have multiple stacked offensive and defensive bonuses. No other belt provides this level of scaling in map clearing."
+    },
+    {
+      "id": "ingenuity",
+      "name": "Ingenuity",
+      "slot": "Belt",
+      "base": "Utility Belt",
+      "levelReq": 55,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["ring-amplification", "ritual", "boss-drop"],
+      "dropSources": ["King in the Mists (Ritual — Crux of Nothingness)"],
+      "keyStats": [
+        "Has (1–3) Charm Slots",
+        "20% of Flask Recovery applied Instantly",
+        "(−20–20)% reduced Charm Charges gained",
+        "(−10–10)% reduced Charm Charges used",
+        "(20–30)% increased bonuses gained from left Equipped Ring",
+        "(20–30)% increased bonuses gained from right Equipped Ring"
+      ],
+      "whyPowerful": "The ring bonus amplification is a multiplicative buff to whatever your rings provide — resistances, damage, life, crit — all increased by 20–30%. On a build with two powerful rings, Ingenuity outperforms most other belts."
+    },
+    {
+      "id": "temporalis",
+      "name": "Temporalis",
+      "slot": "Body Armour",
+      "base": "Silk Robe",
+      "levelReq": 64,
+      "canBeChanced": false,
+      "rarityTier": "SSS",
+      "tags": ["cooldown-reduction", "energy-shield", "sustain", "trial", "boss-drop"],
+      "dropSources": ["Zarokh, the Temporal (Trial of Sekhemas — 4th Floor) with Last Flame relic"],
+      "keyStats": [
+        "Energy Shield: 164–214",
+        "+(100–150) to maximum Energy Shield",
+        "+(10–20)% to all Elemental Resistances",
+        "(5–30)% of Damage taken Recouped as Life",
+        "(5–30)% of Damage taken Recouped as Mana",
+        "Skills have (−2–−1) seconds to Cooldown"
+      ],
+      "whyPowerful": "The cooldown reduction on skills is the defining stat — reducing cooldowns by 1–2 seconds is enormous for any skill with a base cooldown, effectively doubling or tripling its cast rate. Damage Recouped as both Life and Mana provides exceptional sustain."
+    },
+    {
+      "id": "skin-of-the-loyal",
+      "name": "Skin of the Loyal",
+      "slot": "Body Armour",
+      "base": "Garment",
+      "levelReq": 1,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["resistance-stacking", "hybrid-defense", "breach", "boss-drop"],
+      "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
+      "keyStats": [
+        "+(5–40)% to all Elemental Resistances",
+        "Elemental Ailment Threshold is increased by Uncapped Chaos Resistance",
+        "Armour is increased by Uncapped Fire Resistance",
+        "Energy Shield is increased by Uncapped Cold Resistance",
+        "Evasion Rating is increased by Uncapped Lightning Resistance"
+      ],
+      "whyPowerful": "All four defences scale with how much your resistances exceed the cap — intentionally over-capping resistances becomes a massive defensive multiplier. Enables a unique resistance-stacking build archetype."
+    },
+    {
+      "id": "geofris-sanctuary",
+      "name": "Geofri's Sanctuary",
+      "slot": "Body Armour",
+      "base": "Revered Vestments",
+      "levelReq": 65,
+      "canBeChanced": true,
+      "rarityTier": "S",
+      "tags": ["strength-scaling", "energy-shield", "life-regen", "chanceable", "warrior"],
+      "dropSources": [
+        "World Drop (any endgame content)",
+        "Orb of Chance on Normal Revered Vestments",
+        "Player Trade"
+      ],
+      "keyStats": [
+        "Armour: 682–819",
+        "Energy Shield: 76",
+        "+1% to all Maximum Elemental Resistances",
+        "(150–200)% increased Armour",
+        "Maximum Energy Shield is equal to (200–300)% of your Strength",
+        "Regenerate 2 Life per second for every 10 Intelligence",
+        "Grants the keystone passive Zealot's Oath"
+      ],
+      "whyPowerful": "Converts your Strength directly into Energy Shield — a Warrior with 500 Strength gets 1000–1500 maximum Energy Shield. Zealot's Oath causes Life Regeneration to apply to Energy Shield, enabling ES builds to use life regen passives efficiently."
+    },
+    {
+      "id": "pragmatism",
+      "name": "Pragmatism",
+      "slot": "Body Armour",
+      "base": "Explorer Armour",
+      "levelReq": 52,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["free-charms", "hybrid-defense", "ritual", "boss-drop"],
+      "dropSources": ["King in the Mists (Ritual — Crux of Nothingness)"],
+      "keyStats": [
+        "Armour: 447–596",
+        "Evasion Rating: 396–528",
+        "(200–300)% increased Armour and Evasion",
+        "+(10–20)% to all Elemental Resistances",
+        "−17% to Chaos Resistance",
+        "Charms use no Charges"
+      ],
+      "whyPowerful": "Charms using no charges means all your charm slots are permanently active with zero upkeep — powerful resistances, immunity effects, and passive bonuses from charms become free. The −17% Chaos Resistance must be compensated for elsewhere."
+    },
+    {
+      "id": "the-auspex",
+      "name": "The Auspex",
+      "slot": "Body Armour",
+      "base": "Exquisite Vest",
+      "levelReq": 65,
+      "canBeChanced": false,
+      "rarityTier": "S",
+      "tags": ["evasion", "lucky-deflect", "delirium", "boss-drop", "low-life"],
+      "dropSources": ["Tangmazu, The Raven Trickster (Delirium — Withered Willow)"],
+      "keyStats": [
+        "Evasion Rating: 1398–1533",
+        "(210–240)% increased Evasion Rating",
+        "+(70–120) to maximum Life",
+        "100% increased Attribute Requirements",
+        "Grants Skill: Level 15 Mist Raven",
+        "Chance to Deflect is Lucky while on Low Life",
+        "Enemies in your Presence gain 1 Gruelling Madness each second"
+      ],
+      "whyPowerful": "Lucky Deflect on Low Life means your evasion effectively doubles when most in danger. Gruelling Madness stacking on nearby enemies debilitates them the longer they stay near you. Note: 100% increased Attribute Requirements means all gear requirements are doubled."
+    },
+    {
+      "id": "rite-of-passage",
+      "name": "Rite of Passage",
+      "slot": "Charm",
+      "base": "Golden Charm",
+      "levelReq": 50,
+      "canBeChanced": true,
+      "rarityTier": "S",
+      "tags": ["item-rarity", "farming", "chanceable", "wisp"],
+      "dropSources": [
+        "Azmerian Wisp-possessed enemies (first appear in The Grelwood, Act 1)",
+        "Endgame high-density maps (best farming method)"
+      ],
+      "keyStats": [
+        "15% increased Rarity of Items found",
+        "Lasts 1 Second per use",
+        "Consumes 80 of 80 Charges on use",
+        "Used when you kill a Rare or Unique enemy",
+        "Possessed by Spirit of the Azmeri for (10–20) seconds on use"
+      ],
+      "whyPowerful": "15% increased Item Rarity is the highest IIR bonus available in the charm slot. Triggered automatically on killing Rares or Uniques in endgame maps — fires constantly with no input required. Pairs well with Ventor's Gamble for maximum IIR farming setups."
+    },
+    {
+      "id": "olroths-resolve",
+      "name": "Olroth's Resolve",
+      "slot": "Flask",
+      "base": "Ultimate Life Flask",
+      "levelReq": 60,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["runic-ward", "expedition", "boss-drop", "warrior"],
+      "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
+      "keyStats": [
+        "Recovers 920 Life over 3 seconds",
+        "Consumes 10 of 75 charges on use",
+        "(100–150)% increased Charges per use",
+        "Regenerate (2.5–5)% of maximum Runic Ward per second during Effect",
+        "Gain Guard equal to Current Runic Ward for 10 seconds when Effect ends"
+      ],
+      "whyPowerful": "Regenerates Runic Ward during the effect — then grants Guard equal to your full Runic Ward when it expires, providing both a recovery window and a defensive burst. Exceptionally strong in Patch 0.5's Runeforging meta."
+    },
+    {
+      "id": "hand-of-wisdom-and-action",
+      "name": "Hand of Wisdom and Action",
+      "slot": "Gloves",
+      "base": "Spiral Wraps",
+      "levelReq": 33,
+      "canBeChanced": false,
+      "rarityTier": "SSS",
+      "tags": ["attribute-stacking", "lightning", "dex-int", "attack", "breach", "boss-drop"],
+      "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
+      "keyStats": [
+        "+(15–25) to Dexterity",
+        "+(15–25) to Intelligence",
+        "1% increased Attack Speed per 20 Dexterity",
+        "Adds 1 to 10 Lightning Damage to Attacks per 20 Intelligence"
+      ],
+      "whyPowerful": "Every 20 Intelligence adds 1–10 flat lightning damage to all attacks — with 300 Intelligence that's 15–150 added lightning damage per hit. Every 20 Dexterity adds 1% attack speed. Hybrid attribute stacking becomes a build archetype around these gloves."
+    },
+    {
+      "id": "hateforge",
+      "name": "Hateforge",
+      "slot": "Gloves",
+      "base": "Moulded Mitts",
+      "levelReq": 60,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["rage", "charge-generation", "attack", "trial", "boss-drop"],
+      "dropSources": ["The Trialmaster (Trial of Chaos)"],
+      "keyStats": [
+        "(300–400)% increased Armour",
+        "Gain (3–6) Rage on Hit",
+        "(−10–10) to Maximum Rage",
+        "Gain a random Charge when you reach Maximum Rage (no more than once every 3–6 seconds)",
+        "Lose all Rage on reaching Maximum Rage"
+      ],
+      "whyPowerful": "Provides a steady engine of Rage generation on any hit. Gaining a random Charge at maximum Rage gives free offensive or defensive charge access. Extremely strong on fast-attacking builds — the more you attack, the more charges you generate."
+    },
+    {
+      "id": "assailum",
+      "name": "Assailum",
+      "slot": "Helmet",
+      "base": "Closed Helm",
+      "levelReq": 45,
+      "canBeChanced": false,
+      "rarityTier": "S",
+      "tags": ["perfect-timing", "critical", "melee", "simulacrum", "boss-drop"],
+      "dropSources": ["Simulacrum (Delirium — Wave 15)"],
+      "keyStats": [
+        "Armour: 384–512",
+        "Evasion Rating: 345–460",
+        "(200–300)% increased Armour and Evasion",
+        "+(200–400) to Accuracy Rating",
+        "(30–50)% increased Critical Hit Chance",
+        "Skills have a (100–150)% longer Perfect Timing window"
+      ],
+      "whyPowerful": "A 150% longer Perfect Timing window makes it dramatically easier to hit Perfect Timing consistently on almost every attack. Critical Hit Chance further amplifies the damage ceiling. Strong on any melee build using skills with a Perfect Timing mechanic."
+    },
+    {
+      "id": "keeper-of-the-arc",
+      "name": "Keeper of the Arc",
+      "slot": "Helmet",
+      "base": "Spiritbone Crown",
+      "levelReq": 62,
+      "canBeChanced": false,
+      "rarityTier": "S",
+      "tags": ["damage-reduction", "sustain", "boss-fight", "expedition", "boss-drop"],
+      "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
+      "keyStats": [
+        "Armour: 435–563",
+        "Energy Shield: 125–162",
+        "(240–340)% increased Armour and Energy Shield",
+        "(15–25) Life Regeneration per second",
+        "(15–25)% increased Mana Regeneration Rate",
+        "Alternating every 5 seconds: Take 40% less Damage from Hits / Take 40% less Damage over Time"
+      ],
+      "whyPowerful": "The alternating 40% less damage reduction is enormous — every 5 seconds you are either highly resistant to burst damage or highly resistant to DoT. In learnable boss fights you can align mechanics with the active phase for near-constant 40% mitigation."
+    },
+    {
+      "id": "the-adorned",
+      "name": "The Adorned",
+      "slot": "Jewel",
+      "base": "Diamond (Vaal Jewel)",
+      "levelReq": 20,
+      "canBeChanced": false,
+      "rarityTier": "SSS",
+      "tags": ["jewel-stacking", "corrupted", "limited-1", "trial", "boss-drop"],
+      "dropSources": ["The Trialmaster (Trial of Chaos) — Very Rare"],
+      "keyStats": [
+        "(0–150)% increased Effect of Jewel Socket Passive Skills containing Corrupted Magic Jewels",
+        "(0–75)% increased Effect of Jewel Socket Passive Skills containing Corrupted Rare Jewels",
+        "Various negative implicit mods (−30–30)%"
+      ],
+      "whyPowerful": "At the maximum roll, Corrupted Magic jewels in your passive tree have their effects amplified by 150% — doubling and then some. The entire 'jewel-stacking' build archetype exists because of this item. One of the highest-priced items per league."
+    },
+    {
+      "id": "heroic-tragedy",
+      "name": "Heroic Tragedy",
+      "slot": "Jewel",
+      "base": "Timeless Jewel",
+      "levelReq": 20,
+      "canBeChanced": false,
+      "rarityTier": "SSS",
+      "tags": ["timeless-jewel", "passive-tree", "expedition", "boss-drop", "limited-1"],
+      "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
+      "keyStats": [
+        "Remembrancing songworthy deeds by the line of Vorana",
+        "Passives in Radius are Conquered by the Kalguur",
+        "Radius: Very Large (1500)",
+        "Modifies 40 passives within radius into Kalguuran-themed notables",
+        "Grants one keystone: Black Scythe Training / Circular Teachings / Knightly Tenets"
+      ],
+      "whyPowerful": "Transforms 40 passive nodes in a large radius into Kalguuran notables — effectively rewriting a significant portion of your passive tree. The granted keystone changes your entire attribute conversion."
+    },
+    {
+      "id": "prism-of-belief",
+      "name": "Prism of Belief",
+      "slot": "Jewel",
+      "base": "Diamond",
+      "levelReq": 20,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["gem-levels", "corrupted", "limited-1", "citadel", "boss-drop"],
+      "dropSources": ["Arbiter of Ash (Citadel Pinnacle Boss) — Very Rare"],
+      "keyStats": [
+        "+(1–3) to Level of all Specific Skill Skills"
+      ],
+      "whyPowerful": "+3 gem levels is a universal DPS increase — every active skill you use benefits. No other single jewel provides this breadth of gem-level scaling. At +3, skills effectively gain the equivalent of 3 quality tiers of power all at once."
+    },
+    {
+      "id": "controlled-metamorphosis",
+      "name": "Controlled Metamorphosis",
+      "slot": "Jewel",
+      "base": "Diamond",
+      "levelReq": 20,
+      "canBeChanced": false,
+      "rarityTier": "S",
+      "tags": ["passive-allocation", "breach", "boss-drop"],
+      "dropSources": ["Xesht, We That Are One (Breach — Twisted Domain)"],
+      "keyStats": [
+        "Radius: Very Small (800)",
+        "Only affects Passives in Medium-Large Ring",
+        "Passives in Radius can be Allocated without being connected to your tree",
+        "−(20–5)% to all Elemental Resistances"
+      ],
+      "whyPowerful": "Allowing unconnected passive allocation in a radius means you can pick up isolated clusters of powerful passives without needing to path through the tree to reach them — effectively adding 5–15+ free passive points worth of value."
+    },
+    {
+      "id": "megalomaniac",
+      "name": "Megalomaniac",
+      "slot": "Jewel",
+      "base": "Diamond",
+      "levelReq": 20,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["random-notables", "corrupted", "limited-1", "simulacrum", "boss-drop"],
+      "dropSources": [
+        "Simulacrum (Delirium — Wave 15) — 2-mod: Very Rare; 3-mod: Extremely Rare"
+      ],
+      "keyStats": [
+        "Allocates a random Notable Passive Skill (appears 2–3 times)",
+        "2-mod version: 2 random notables",
+        "3-mod version: 3 random notables (Extremely Rare)"
+      ],
+      "whyPowerful": "Each allocated notable is as powerful as if you had spent a passive point on it. A 3-mod Megalomaniac with three build-defining notables can free up 15+ passive points or provide access to notables unreachable on your tree path."
+    },
+    {
+      "id": "grand-spectrum",
+      "name": "Grand Spectrum",
+      "slot": "Jewel",
+      "base": "Ruby / Emerald / Sapphire Jewel",
+      "levelReq": 20,
+      "canBeChanced": false,
+      "rarityTier": "S",
+      "tags": ["stacking-bonus", "life", "spirit", "resistance", "trial"],
+      "dropSources": ["Trial of Sekhemas (Zarokh — 4th Floor caches)"],
+      "keyStats": [
+        "Grand Spectrum (Ruby): 2% increased Maximum Life per Grand Spectrum socketed",
+        "Grand Spectrum (Emerald): 2% increased Spirit per Grand Spectrum socketed",
+        "Grand Spectrum (Sapphire): +6% to all Elemental Resistances per Grand Spectrum socketed"
+      ],
+      "whyPowerful": "With all 3 variants socketed, each jewel counts the other two, giving +4% Life, +4% Spirit, and +12% to all resistances from three jewel sockets simultaneously — universal bonuses any build wants."
+    },
+    {
+      "id": "split-personality",
+      "name": "Split Personality",
+      "slot": "Jewel",
+      "base": "Ruby Jewel",
+      "levelReq": 20,
+      "canBeChanced": false,
+      "rarityTier": "S",
+      "tags": ["cross-class", "passive-tree", "corrupted", "limited-1", "delirium", "boss-drop"],
+      "dropSources": ["Tangmazu, The Raven Trickster (Delirium — Withered Willow)"],
+      "keyStats": [
+        "Can Allocate Passive Skills from other class starting points (Sorceress, Warrior, Ranger, Mercenary, Templar, Shadow)"
+      ],
+      "whyPowerful": "Removes the restriction of allocating passives only from your class starting area for one additional starting point. Allows access to powerful keystones or notable clusters completely out of reach on your character's side of the passive tree."
+    },
+    {
+      "id": "ventors-gamble",
+      "name": "Ventor's Gamble",
+      "slot": "Ring",
+      "base": "Gold Ring",
+      "levelReq": 64,
+      "canBeChanced": true,
+      "rarityTier": "S",
+      "tags": ["item-rarity", "farming", "chanceable", "variable-stats"],
+      "dropSources": [
+        "Orb of Chance on Normal Gold Ring",
+        "World Drop (any endgame content)",
+        "Player Trade (price varies wildly by roll quality)"
+      ],
+      "keyStats": [
+        "(6–15)% increased Rarity of Items found",
+        "+(0–80) to maximum Life",
+        "+(0–20) to Spirit",
+        "(−25–25)% to Rarity of Items found (can be negative)",
+        "(−40–40)% to Fire Resistance",
+        "(−40–40)% to Cold Resistance",
+        "(−40–40)% to Lightning Resistance"
+      ],
+      "whyPowerful": "All three resistances rolling positive + high net IIR = top-tier farming ring. The value is entirely in the roll — check the net IIR (first mod minus second mod) and resistance signs when evaluating. Pairs with Rite of Passage for maximum IIR setups."
+    },
+    {
+      "id": "svalinn",
+      "name": "Svalinn",
+      "slot": "Shield",
+      "base": "Crucible Tower Shield",
+      "levelReq": 60,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["block", "lucky-block", "cast-on-block", "runic-ward", "warrior", "expedition", "boss-drop"],
+      "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
+      "keyStats": [
+        "Armour: 435–580",
+        "Ward: 50–100",
+        "Block Chance: 26%",
+        "+(50–100) to maximum Runic Ward",
+        "(200–300)% increased Armour",
+        "Chance to Block Damage is Lucky",
+        "You take (0–20)% of Damage from Blocked Hits",
+        "Grants Skill: Raise Shield",
+        "Grants Skill: Level 14 Cast on Block"
+      ],
+      "whyPowerful": "Lucky Block effectively doubles your block chance — two rolls, take the better result. Cast on Block at Level 14 fires a socketed spell automatically whenever you block. Runic Ward integration makes this the premier shield for Runeforging builds in 0.5."
+    },
+    {
+      "id": "the-burden-of-shadows",
+      "name": "The Burden of Shadows",
+      "slot": "Weapon",
+      "base": "Chiming Staff",
+      "levelReq": 78,
+      "canBeChanced": false,
+      "rarityTier": "SS",
+      "tags": ["chaos-damage", "life-cost", "caster", "ritual", "boss-drop"],
+      "dropSources": ["King in the Mists (Ritual — Crux of Nothingness)"],
+      "keyStats": [
+        "(20–30)% increased Cast Speed",
+        "Skill Mana Costs Converted to Life Costs",
+        "Skills gain 1% of Damage as Chaos Damage per 3 Life Cost",
+        "Grants Skill: Level 18 Sigil of Power"
+      ],
+      "whyPowerful": "Converting Mana costs to Life costs enables a different resource economy — with strong Life regen and leech you can cast indefinitely without Mana. 1% Chaos damage per 3 Life cost scales directly with how expensive your skills are."
+    },
+    {
+      "id": "olrovasara",
+      "name": "Olrovasara",
+      "slot": "Weapon",
+      "base": "Torment Club",
+      "levelReq": 65,
+      "canBeChanced": false,
+      "rarityTier": "S",
+      "tags": ["lightning", "stacking", "melee", "expedition", "boss-drop", "warrior"],
+      "dropSources": ["Olroth, Origin of the Fall (Expedition — Ruins of Kingsmarch)"],
+      "keyStats": [
+        "Physical Damage: 44–73",
+        "Lightning Damage: 1 to (60–80)",
+        "+(300–400) to Accuracy Rating",
+        "(5–30)% increased Attack Speed",
+        "On hitting an enemy, gains maximum added lightning damage equal to enemy power for 20 seconds, up to 500"
+      ],
+      "whyPowerful": "Hitting stronger enemies gives more lightning damage — in endgame maps you rapidly stack up to 500 added lightning damage persisting 20 seconds. High accuracy rating removes the need for accuracy investment elsewhere."
+    },
+    {
+      "id": "brutus-lead-sprinkler",
+      "name": "Brutus' Lead Sprinkler",
+      "slot": "Weapon",
+      "base": "Morning Star",
+      "levelReq": 45,
+      "canBeChanced": true,
+      "rarityTier": "A",
+      "tags": ["strength-scaling", "fire", "melee", "chanceable", "warrior", "campaign"],
+      "dropSources": [
+        "Orb of Chance on Normal Morning Star",
+        "World Drop (any content)",
+        "Player Trade (very affordable)"
+      ],
+      "keyStats": [
+        "Physical Damage: (59–73) to (88–108)",
+        "(80–120)% increased Physical Damage",
+        "(5–10)% increased Attack Speed",
+        "+(15–25) to Strength",
+        "5–10 Added Attack Fire Damage per 25 Strength",
+        "Hits with this Weapon have 5% chance to Trigger Molten Shower per 25 Strength",
+        "Grants Skill: Level 11 Molten Shower"
+      ],
+      "whyPowerful": "Scales fire damage directly from Strength — with 500 Strength you add 100–200 fire damage per hit. The Molten Shower trigger fires a free lava rain AoE on hits. Excellent campaign and early endgame weapon for Strength-stacking Warriors."
+    },
+    {
+      "id": "redemption",
+      "name": "Redemption",
+      "slot": "Weapon",
+      "base": "Trarthan Cannon",
+      "levelReq": 65,
+      "canBeChanced": false,
+      "rarityTier": "S",
+      "tags": ["grenade", "mercenary", "world-drop", "0.5-new"],
+      "dropSources": [
+        "World Drop / Boss Drop (endgame content)",
+        "Player Trade (new in 0.5; price fluctuates)"
+      ],
+      "keyStats": [
+        "Physical Damage: (232–290) to (536–670)",
+        "(300–400)% increased Physical Damage",
+        "Cannot load or fire Ammunition",
+        "Hits with this Weapon have no Critical Damage Bonus",
+        "(20–40)% reduced Cooldown Recovery Rate",
+        "Gain 1 Explosive Rhythm every (2–3) times you use a Grenade Skill; Remove all Explosive Rhythm on reaching 10 to gain Explosive Fervour for 10 seconds"
+      ],
+      "whyPowerful": "Explosive Fervour is a powerful damage buff unlocked after 10 Grenade Skill uses — creates a rhythm of building up and releasing burst windows. The (300–400)% physical damage increase is among the highest on any weapon in the game."
+    }
+  ]
+}

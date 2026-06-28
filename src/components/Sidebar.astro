@@ -1,0 +1,79 @@
+---
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const path = currentPath.replace(/\/$/, '');
+
+function isActive(href: string) {
+  return path === href.replace(/\/$/, '');
+}
+
+const knowledgeLinks = [
+  { slug: 'game_overview',             label: 'Game Overview' },
+  { slug: 'classes_and_ascendancies',  label: 'Classes & Ascendancies' },
+  { slug: 'skills_gems_passives',      label: 'Skills, Gems & Passives' },
+  { slug: 'defensive_mechanics',       label: 'Defensive Mechanics' },
+  { slug: 'endgame_atlas',             label: 'Endgame Atlas' },
+  { slug: 'currency_crafting_economy', label: 'Currency & Crafting' },
+  { slug: 'current_meta_patch05',      label: 'Current Meta (0.5)' },
+  { slug: 'campaign_and_bosses',       label: 'Campaign & Bosses' },
+  { slug: 'unique_items_acquisition',  label: 'Unique Items' },
+];
+---
+
+<nav class="sticky top-0 h-screen overflow-y-auto py-5 px-3 flex flex-col gap-0.5 bg-poe-bg">
+  <a
+    href={base}
+    class={`flex items-center gap-2 px-3 py-2.5 rounded font-display text-base mb-3 transition-colors ${isActive(base) ? 'text-poe-gold' : 'text-poe-gold/70 hover:text-poe-gold'}`}
+  >
+    POE2 Expert
+  </a>
+
+  <div>
+    <a
+      href={`${base}knowledge`}
+      class="px-3 py-1 text-xs uppercase tracking-widest text-poe-muted hover:text-poe-gold font-semibold block mb-1 transition-colors"
+    >
+      Knowledge Base
+    </a>
+    {knowledgeLinks.map(link => {
+      const href = `${base}knowledge/${link.slug}`;
+      return (
+        <a
+          href={href}
+          class={`nav-link text-sm pl-5 ${isActive(href) ? 'active' : ''}`}
+        >
+          {link.label}
+        </a>
+      );
+    })}
+  </div>
+
+  <div class="mt-4">
+    <span class="px-3 py-1 text-xs uppercase tracking-widest text-poe-muted font-semibold block mb-1">
+      Item Databases
+    </span>
+    <a href={`${base}chase-items`} class={`nav-link ${isActive(`${base}chase-items`) ? 'active' : ''}`}>
+      Chase Items
+    </a>
+    <a href={`${base}lineage-gems`} class={`nav-link ${isActive(`${base}lineage-gems`) ? 'active' : ''}`}>
+      Lineage Gems
+    </a>
+  </div>
+
+  <div class="mt-4">
+    <a href={`${base}search`} class={`nav-link ${isActive(`${base}search`) ? 'active' : ''}`}>
+      Search
+    </a>
+  </div>
+
+  <div class="mt-auto pt-6">
+    <div class="px-3 py-2 bg-poe-panel border border-poe-border rounded text-xs text-poe-muted leading-relaxed">
+      Patch 0.5.4<br/>Early Access
+    </div>
+  </div>
+</nav>

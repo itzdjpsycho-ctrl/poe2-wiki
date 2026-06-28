@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #d4c5a0;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+    color: #c89a2a;
+  }
+
+  a {
+    color: #e5b94a;
+    transition: color 0.15s ease;
+  }
+
+  a:hover {
+    color: #c89a2a;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2a2a3a;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9a7420;
+  }
+}
+
+@layer components {
+  .prose-poe {
+    --tw-prose-body: #d4c5a0;
+    --tw-prose-headings: #c89a2a;
+    --tw-prose-lead: #d4c5a0;
+    --tw-prose-links: #e5b94a;
+    --tw-prose-bold: #e5d5b0;
+    --tw-prose-counters: #7a7060;
+    --tw-prose-bullets: #9a7420;
+    --tw-prose-hr: #2a2a3a;
+    --tw-prose-quotes: #d4c5a0;
+    --tw-prose-quote-borders: #9a7420;
+    --tw-prose-captions: #7a7060;
+    --tw-prose-code: #e5b94a;
+    --tw-prose-pre-code: #d4c5a0;
+    --tw-prose-pre-bg: #141414;
+    --tw-prose-th-borders: #2a2a3a;
+    --tw-prose-td-borders: #1e1e2a;
+  }
+
+  .prose-poe h1,
+  .prose-poe h2,
+  .prose-poe h3,
+  .prose-poe h4 {
+    font-family: 'Cinzel', serif;
+  }
+
+  .prose-poe table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .prose-poe th {
+    background-color: #1a1a1a;
+    font-family: 'Cinzel', serif;
+    font-size: 0.8em;
+  }
+
+  .prose-poe tr:nth-child(even) td {
+    background-color: #0f0f0f;
+  }
+
+  .prose-poe tr:hover td {
+    background-color: #1a1a1a;
+  }
+
+  .callout-gold {
+    @apply border-l-4 border-poe-gold bg-poe-panel/60 pl-4 py-3 my-4 rounded-r-lg;
+    color: #c8b888;
+  }
+
+  .card-poe {
+    @apply bg-poe-panel border border-poe-border rounded-lg transition-all duration-200;
+  }
+
+  .card-poe:hover {
+    @apply border-poe-gold/40;
+  }
+
+  .badge-sss {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold font-display;
+    background: linear-gradient(135deg, #b8860b, #ffd700, #b8860b);
+    color: #000;
+    text-shadow: none;
+  }
+
+  .badge-ss {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold;
+    background-color: #e07020;
+    color: #000;
+  }
+
+  .badge-s {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold;
+    background-color: #c8a820;
+    color: #000;
+  }
+
+  .badge-a {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold;
+    background-color: #60a828;
+    color: #000;
+  }
+
+  .badge-b {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold;
+    background-color: #506878;
+    color: #fff;
+  }
+
+  .btn-filter {
+    @apply px-3 py-1.5 text-sm border border-poe-border rounded transition-all duration-150 cursor-pointer;
+    background-color: #141414;
+    color: #7a7060;
+  }
+
+  .btn-filter:hover {
+    @apply border-poe-gold/50;
+    color: #c89a2a;
+  }
+
+  .btn-filter.active {
+    @apply border-poe-gold;
+    background-color: #1e1a0a;
+    color: #c89a2a;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-2 px-3 py-2 rounded text-sm transition-all duration-150;
+    color: #7a7060;
+  }
+
+  .nav-link:hover {
+    background-color: #141414;
+    color: #c89a2a;
+  }
+
+  .nav-link.active {
+    background-color: #1e1a0a;
+    color: #c89a2a;
+    border-left: 2px solid #c89a2a;
+  }
+}
+
+/* Pagefind UI theming */
+:root {
+  --pagefind-ui-scale: 0.9;
+  --pagefind-ui-primary: #c89a2a;
+  --pagefind-ui-text: #d4c5a0;
+  --pagefind-ui-background: #141414;
+  --pagefind-ui-border: #2a2a3a;
+  --pagefind-ui-tag: #2a2a3a;
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 4px;
+  --pagefind-ui-font: 'Inter', sans-serif;
+}

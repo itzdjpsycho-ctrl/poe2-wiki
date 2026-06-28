@@ -1,0 +1,25 @@
+---
+import BrowserLayout from '../../layouts/BrowserLayout.astro';
+import ItemCard from '../../components/ItemCard.astro';
+import ItemFilter from '../../components/ItemFilter.astro';
+import chaseItemsData from '../../data/chaseItems.json';
+
+const items = chaseItemsData.items;
+---
+
+<BrowserLayout title="Chase Items" description="Searchable database of all chase-tier unique items in Path of Exile 2 Patch 0.5">
+  <div class="max-w-7xl mx-auto">
+    <div class="mb-8">
+      <h1 class="font-display text-2xl text-poe-gold mb-2">Chase Items</h1>
+      <p class="text-poe-muted text-sm">All {items.length} chase-tier unique items — stats verified against poe2db.tw (Patch 0.5)</p>
+    </div>
+
+    <ItemFilter />
+
+    <div id="items-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+      {items.map(item => (
+        <ItemCard item={item as any} />
+      ))}
+    </div>
+  </div>
+</BrowserLayout>

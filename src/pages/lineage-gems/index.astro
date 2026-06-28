@@ -1,0 +1,28 @@
+---
+import BrowserLayout from '../../layouts/BrowserLayout.astro';
+import GemCard from '../../components/GemCard.astro';
+import GemFilter from '../../components/GemFilter.astro';
+import lineageGemsData from '../../data/lineageGems.json';
+
+const gems = lineageGemsData.gems;
+---
+
+<BrowserLayout title="Lineage Gems" description="All chase Lineage Support Gems in Path of Exile 2 Patch 0.5 with stats, prices, and drop sources">
+  <div class="max-w-7xl mx-auto">
+    <div class="mb-8">
+      <h1 class="font-display text-2xl text-poe-gold mb-2">Lineage Support Gems</h1>
+      <p class="text-poe-muted text-sm mb-1">
+        {gems.length} most chase-worthy gems of 77 total Lineage supports — Level 65 required, all boss-exclusive drops.
+      </p>
+      <p class="text-xs text-poe-muted">Stats verified against poe2db.tw (Patch 0.5)</p>
+    </div>
+
+    <GemFilter />
+
+    <div id="gems-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+      {gems.map(gem => (
+        <GemCard gem={gem as any} />
+      ))}
+    </div>
+  </div>
+</BrowserLayout>
